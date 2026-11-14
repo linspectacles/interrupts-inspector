@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "id": "linspectacles-interrupts-inspector",
+  "name": "Interrupts Inspector",
+  "version": "0.0.7",
+  "author": "brunonlinespace",
+  "editor": "brunonlinespace",
+  "publisher": "brunonlinespace",
+  "organization_id": "linspectacles",
+  "organization_url": "https://github.com/linspectacles/",
+  "repository": "https://github.com/linspectacles/interrupts-inspector",
+  "order": 42,
+  "entrypoint": "interrupts_inspector/applet.py",
+  "factory": "create_applet",
+  "standalone": "standalone.py",
+  "description": "Read-only Linux interrupt inspector for IRQ delivery, affinity, per-CPU distribution, SoftIRQ deferred work, and optional kernel/device context.",
+  "platforms": [
+    "linux"
+  ],
+  "read_only": true
+}
